@@ -1,14 +1,13 @@
 import React from 'react';
+import Image from '../../Images/Image';
 function Cards(props) {
     return (
        <>
         <div className="feature-data">
-            <div className="feature-img">
-                <img 
+            <div>
+                <Image
                     src={props.src} 
-                    alt=""
-                    height={props.height} 
-                    width={props.width}
+                    cls="feature-img"
                 />
             </div>
             <div className="feature-heading">{props.head}</div>

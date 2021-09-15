@@ -7,20 +7,18 @@ import './Features.css'
 function Features() {
 
     return (
-        <>
+        <div className="feature">
         {CardData.map(val => {
             return (
                 <Cards 
-                src = {val.src}
-                width = {val.width}
-                height = {val.height}
-                head = {val.head}
-                desc = {val.desc}
+                    src = {val.src}
+                    head = {val.head}
+                    desc = {val.desc}
                 />
             )
         })}
 
-        </>
+        </div>
     )
 }
 
