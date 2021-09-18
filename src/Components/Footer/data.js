@@ -31,15 +31,41 @@ export const list_data = [
         "Offer Terms",
         "Phishing & Fraud",          
     ],
+    
     [
+        
         [
-            "Cookie Policy",
-            "Offer Terms"
+            'Abohar',
+            'Adilabad',
+            'Adityapur',
+            'Adoni',
+            'Agartala'
+        ],    
+    
+        [
+            'Dause',
+            'Devanagere',
+            'Dehradun',
+            'Dehri',
+            'Delhi'
         ],
+   
         [
-            "Cookie Policy",
-            "Offer Terms"
+            'Kishanganj',
+            'Kishangarh',
+            'Kochi',
+            'Kodalkanai',
+            'Kolar'
+        ], 
+  
+        [
+            'Pudukkottai',
+            'Pune',
+            'Purl',
+            'Purnea',
+            'Purlia'
         ]
+
         
     ]
 

@@ -9,9 +9,16 @@ function SecondDiv() {
             <Heading
                 heading = {heading_data[1]}
             />
-            <ListItem
-                data = {list_data[3][0]}
-            />
+            <div>
+                {
+                    list_data[3].map((item)=>{
+                        console.log(item)
+                        return  <ListItem
+                                    data = {item}
+                                />
+                    })
+                }
+            </div>
         </div>        
     )
 }

@@ -1,3 +1,4 @@
 .pocket_section{
     display: flex;
+    overflow-x:hidden;
 }

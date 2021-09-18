@@ -1,5 +1,6 @@
-import React from 'react';
-import Image from '../../Images/Image';
+import React from 'react'
+import Image from '../../Images/Image'
+import './Card.css'
 function Cards(props) {
     return (
        <>
