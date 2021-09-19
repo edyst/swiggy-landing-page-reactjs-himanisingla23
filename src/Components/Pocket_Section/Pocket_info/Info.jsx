@@ -8,18 +8,18 @@ function Info() {
             <h1>Restaurants in your pocket</h1>
             <p>Order from your favorite restaurants & track on the go, 
             with the all-new Swiggy app.</p>
-            {/* <div>
-                <Image
-                    src = "https://web.archive.org/web/20210909224830im_/https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_108/play_ip0jfp"
-                    Cls = "play_img"
-                />
-                <Image
-                    src="https://web.archive.org/web/20210909224830im_/https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_108/iOS_ajgrty"
-                    Cls = "play_img"
-                />
+            <div className="div-img">
+            <Image
+                   src="https://web.archive.org/web/20210903174711im_/https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_200,h_65/icon-GooglePlay_1_zixjxl"
+                   cls="img-play"
+               />
+               <Image
+                   src="https://web.archive.org/web/20210903174711im_/https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_200,h_65/icon-AppStore_lg30tv"
+                   cls="img-play"
+               />
 
             </div>
-             */}
+            
         </div>
     )
 }

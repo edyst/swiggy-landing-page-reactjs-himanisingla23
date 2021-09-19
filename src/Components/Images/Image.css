@@ -9,6 +9,10 @@
 .feature-img{
     height:200px;
 }
+.img-play{
+    padding:10px;
+}
+
 .left_img, .right_img{
     height:500px;
     position:absolute;
@@ -19,7 +23,6 @@
     height:500px;
     position:absolute;
     right:150px;
-    margin-top:90px;
-
+    margin-top:35px;
 }
 

@@ -9,7 +9,7 @@ function App() {
       {/* <Body/> */}
       <Features/>
       <Pocket />
-      {/* <Footer/> */}
+      <Footer/>
      
       
 
