@@ -1,9 +1,12 @@
 .main_img{
     height:500px;
-    float:right;
+    float: right;
+    width:700px;
 }
 .swiggy_logo{
     height:60px;
+    position:relative;
+    left:-100px;
 }
 
 .feature-img{
@@ -13,7 +16,7 @@
     padding:10px;
 }
 
-.left_img, .right_img{
+.left_img{
     height:500px;
     position:absolute;
     right:500px;
@@ -32,7 +35,9 @@
 }
 .social-media{
     height:20px;
-    padding:22px;
-    
+    padding:22px;   
+}
+.social-media:hover{
+    background-color: red;
 }
 

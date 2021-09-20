@@ -10,12 +10,12 @@
     width:250px;
     padding:85px 20px;
 }
-button{
+.footer_btn button{
     background:transparent;
     margin-top:20px;
     border:none;
 }
-button:hover{
+.footer_btn  button:hover{
  border:2px solid red;
     
 }
