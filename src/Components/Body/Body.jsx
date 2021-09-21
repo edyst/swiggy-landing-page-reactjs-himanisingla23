@@ -8,31 +8,31 @@ import './Body.css'
 export default function Body() {
     return (
         <div className="main-body">
-        <div className="left_div">
-            <div class="left_first">
-                <Image
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRltPMGDF7UGsme8WBuFxEwG8H-Ys4nW7TbOBFXG4H36Q11Ccbmc0tvVK_RU4N9-EI2GQ&usqp=CAU" 
-                    cls="swiggy_logo"
-                />
-                    <div class="main_btn">
-                        <Button
-                            cls = "login_btn"
-                            btn = "Login"
-                        />
-                        <Button
-                            cls = "sign_btn"
-                            btn = "Sign UP"
-                        />
+            <div className="left_div">
+                <div class="left_first">
+                    <Image
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRltPMGDF7UGsme8WBuFxEwG8H-Ys4nW7TbOBFXG4H36Q11Ccbmc0tvVK_RU4N9-EI2GQ&usqp=CAU" 
+                        cls="swiggy_logo"
+                    />
+                        <div class="main_btn">
+                            <Button
+                                cls = "login_btn"
+                                btn = "Login"
+                            />
+                            <Button
+                                cls = "sign_btn"
+                                btn = "Sign UP"
+                            />
+                        </div>
+
+                </div>
+                    <div className="main-head">
+                        <h1>Hungry?</h1>
+                        <p>Order food from favourite restaurants near you.</p>
                     </div>
 
+                <Input/>
             </div>
-                <div className="main-head">
-                    <h1>Hungry?</h1>
-                    <p>Order food from favourite restaurants near you.</p>
-                </div>
-
-            <Input/>
-        </div>
 
             <div className="right_div">
                 <Image

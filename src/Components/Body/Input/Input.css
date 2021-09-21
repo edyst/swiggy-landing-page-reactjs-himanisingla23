@@ -17,3 +17,16 @@
     border: none;
     outline: none;
 }
+@media(max-width:720px){
+    .input_div{
+        flex-wrap: wrap;
+    }
+    .input_div>input{
+        width: 100%;
+    }
+}
+@media(max-width:650px){
+    .input_div{
+        width: 70%;
+    }   
+}

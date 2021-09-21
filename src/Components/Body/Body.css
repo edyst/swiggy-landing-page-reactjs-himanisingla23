@@ -5,25 +5,23 @@
 .main-body
 {
     display: flex;
+    gap: 40px;
     text-align:Center;
-    justify-content: space-evenly;
-    margin-top:70px;
-    margin-left:80px;
+    align-items: center;
+    justify-content: space-between;
     overflow-x: hidden;
-
-}
-.right_div{
-    position:relative;
-    right:-50px;
 }
 .left_div{
-    width:800px;
+    padding-left: 50px;
+    flex: auto;
 }
+
+
 .left_first{
     display: flex;
-    padding:20px;
-    text-align:center;
-    justify-content: space-evenly;
+    padding: 20px 0px;
+    text-align: center;
+    justify-content: space-between;
 }
 .main_btn{
     width:300px;
@@ -54,6 +52,32 @@
     line-height:1.7;
     padding-top:5px;
 }
+@media(max-width:1000px){
+    .main-body{
+        margin:0;
+        padding:10px 20px 20px;
+    }
+    .right_div{
+        display: none;
+    }
+}
+@media(max-width:720px){
+    .left_first{
+        flex-wrap: wrap;
+    }
+    .left_div{
+        padding: 0;
+    }
+}
+@media(max-width:650px){
+    .left_first{
+        width:80%;
+    }
+    .main-body{
+        text-align: center;
+    }
+}
+
 
 
 

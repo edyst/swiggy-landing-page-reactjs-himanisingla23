@@ -24,3 +24,8 @@
 .div_img{
     width:200px;
 }
+@media(max-width:1000px){
+    .info-div p{
+        width:90%;
+    }
+}

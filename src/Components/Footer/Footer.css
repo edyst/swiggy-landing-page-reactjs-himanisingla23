@@ -8,3 +8,10 @@
     margin-top:80px;
     padding:75px 65px;
 }
+@media(max-width:769px){
+    .footer_div{
+        padding: 20px 10px;
+
+    }
+} 
+    

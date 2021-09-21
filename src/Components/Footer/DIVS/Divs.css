@@ -43,3 +43,9 @@
     padding:25px;
     letter-spacing: -.6px;
 }
+@media(max-width:1000px){
+    .first_div,.second_div_list, .third_div{
+        flex-wrap: wrap;
+    }
+  
+}

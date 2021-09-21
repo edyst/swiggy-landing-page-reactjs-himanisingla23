@@ -1,12 +1,10 @@
 .main_img{
-    height:500px;
     float: right;
     width:700px;
+    height: 500px;
 }
 .swiggy_logo{
     height:60px;
-    position:relative;
-    left:-100px;
 }
 
 .feature-img{
@@ -41,3 +39,10 @@
     background-color: red;
 }
 
+@media(max-width:1000px){
+    .left_img, .right_img,.main_img{
+        display: none;
+    }
+
+
+}
