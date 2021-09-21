@@ -1,11 +1,13 @@
 import React,{useState} from 'react'
 import Button from '../../Button/Button';
+import '../Body'
+import './Input.css'
 
 function Input() {
     const [data, setData] = useState('');
     return (
 
-        <div className="input__class">
+        <div className="input_div">
             <input 
                 value={data} 
                 onChange={(e)=>{
@@ -13,19 +15,18 @@ function Input() {
                     } }
                 type="text" 
                 placeholder="Enter your delivery location" 
-                 />
+            />
 
-                <Button
-                    className = "Location_btn"
-                    btn = "Location"
-                    />
-                <Button
-                    className = "Food_btn"
-                    btn = "Find Food"
+            <Button
+                ico = "true"
+                cls = "Location_btn"
+                btn = "Locate Me"
                 />
-         </div>
-            
-        
+            <Button
+                cls = "Food_btn"
+                btn = "Find Food"
+            />
+         </div>   
     )
 }
 
